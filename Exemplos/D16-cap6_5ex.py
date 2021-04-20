@@ -1,15 +1,24 @@
-# (19/04/2021) pesquisa sequencial
-L = [15, 7, 27, 39]
-p = int(input('Digite o valor a procurar: '))
-achou = False
-x = 0
+# (19/04/2021) pilha de pratos
+prato = 5
+pilha = list(range(1, prato + 1))
 
-while x < len(L):
-    if L[x] == p:
-        achou = True
+while True:
+    print(f"\nExistem {len(pilha)} pratos na pilha.")
+    print(f"Pilha atual: {pilha}")
+    print("E - Empilhar um novo prato")
+    print("D - Desempilhar")
+    print("S - Sair")
+    opcao = str(input("Opcao (E, D ou S): ")).lower()
+    if opcao == "d":
+        if len(pilha) > 0:
+            lavado = pilha.pop(0)
+            print(f"Prato {lavado} lavado")
+        else:
+            print("Pilha vazia. Nada para lavar.")
+    elif opcao == "e":
+        prato += 1
+        pilha.append(prato)
+    elif opcao == "s":
         break
-    x += 1
-if achou:
-    print(f'{p} achado na posição {x}')
-else:
-    print(f'{p} não encontrado')
+    else:
+        print("Opcao invalida. Insira E, D ou S.")
