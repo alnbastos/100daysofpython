@@ -1,5 +1,5 @@
 """
-(03/05/2021) Reescreva o exemolo 8.2 de fora a utilizar FOR em vez de WHILE.
+(03/05/2021) Reescreva o exemplo 8.2 de fora a utilizar FOR em vez de WHILE.
 """
 def soma(L):
     total = 0

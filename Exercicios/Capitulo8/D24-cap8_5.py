@@ -1,5 +1,5 @@
 """
-(03/05/2021) Reescreva a funcao do exemplo 8.1 de forma a utilizar os metodo de pesquisa em lista.
+(03/05/2021) Reescreva a funcao do exemplo 8.1 de forma a utilizar os metodos de pesquisa em lista.
 """
 def pesquise(lista, valor):
     if valor in lista:
