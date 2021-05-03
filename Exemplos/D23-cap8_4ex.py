@@ -1,4 +1,5 @@
-# Exemplo 8.4 - Outra forma de calcular o fatorial
+# (03/05/2021) Exemplo 8.4 - Outra forma de calcular o fatorial
+
 def fatorial(n):
     fat = 1
     x = 1

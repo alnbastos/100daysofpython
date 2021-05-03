@@ -1,4 +1,4 @@
-# Exemplo 8.3 - Calculo de integral
+# (03/05/2021) Exemplo 8.3 - Calculo de integral
 
 def fatorial(n):
     fat = 1

@@ -1,4 +1,5 @@
-# Exemplo 8.2 - Como nao escrever uma funcao
+# (03/05/2021) Exemplo 8.2 - Como nao escrever uma funcao
+
 def soma(L):
     total = 0
     x = 0
@@ -6,6 +7,7 @@ def soma(L):
         total += L[x]
         x += 1
     return total
+
 L = [1, 7, 2, 9, 15]
 print(soma(L))
 print(soma([7, 9, 12, 3, 100, 20, 4]))
